@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Message</title>
+</head>
+<body>
+    <h1>Your Message</h1>
+    <p id="displayMessage"></p>
+
+    <script>
+        // Retrieve the message from local storage
+        const message = localStorage.getItem('message');
+
+        // Display the message
+        document.getElementById('displayMessage').textContent = message;
+
+        // Clear the message from local storage
+        localStorage.removeItem('message');
+    </script>
+</body>
+</html>

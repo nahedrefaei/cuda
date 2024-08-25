@@ -1,0 +1,269 @@
+body{
+    width: 100%;
+   background-color: #eee;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-radius: 10px;
+ 
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+header{
+grid-column: span 2;
+
+}
+.services{
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(4,auto) ;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+
+}
+.meet{
+    grid-column: span 2;
+    display: grid;
+    text-align: center;
+    align-items: center;
+  
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2,auto) ;
+
+}
+
+.protofile{
+    grid-column: span 2;
+  
+}
+.bar{
+    display: flex;
+   
+    flex-direction: row;
+   padding: 10px;
+gap: 20px;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.class{
+    display: grid;
+    grid-template-columns: repeat(2,auto) ; 
+    text-align: center;
+    align-items: center;
+    display: grid;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    gap: 60px;
+}
+.sociall{
+    grid-column: span 2;
+    display: grid;
+    text-align: center;
+    align-items: center;
+   
+}
+.kj{
+    display: grid;
+    grid-template-columns: repeat(2,auto) ;  
+}
+.touch{
+    grid-column: span 2;
+}
+
+
+p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.k{
+    grid-column: span 2; 
+}
+h3,h4,h6{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+.list{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, auto); 
+    width: 100%; /* Ensures the skills section spans the full width */
+    text-align: center;
+align-items: center;
+justify-content: center;
+gap: 100px;
+}
+
+
+
+header{
+    background-color: purple;
+    color: white;
+    height:400px;
+    font-size:20px;
+    border-radius: 10px;
+}
+.button button{
+    background-color: orangered;
+    margin: 50px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+ header h2{
+  font-style: italic;
+ font-size: 30px;
+}
+.k ,.services{
+    background-color:rgb(14, 157, 157);
+color: white;
+font-size: 20px;
+
+
+}
+.k {
+    border-radius :  10px 10px 0px 0px;
+}
+.services{
+    height: 400px;
+    border-radius : 0px 0px 10px 10px;
+}
+
+.meet{
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.skills{
+    padding: 30px;
+}
+.protofile{
+    background-color: rgb(182, 130, 111);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.sociall{
+    background-color: rgb(212, 59, 125);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.touch{
+    background-color: rgb(20, 20, 92);
+    height: 100vh;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+footer{
+    background-color:lightblue;
+    border-radius: 10px;
+    height: 70px;
+}
+a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 30px;
+}
+
+/* Navbar */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Space between links */
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Navbar Links */
+.navbar ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+    font-size: 18px; /* Font size */
+    padding: 10px 15px; /* Padding around links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover Effect */
+.navbar ul li a:hover {
+    background-color: #555; /* Change background on hover */
+    color: #ffdd57; /* Change text color on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+/* Active Link */
+.navbar ul li a.active {
+    background-color: #ffdd57; /* Highlighted background */
+    color: #333; /* Dark text color */
+    border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar ul li a {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    header {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow under the navbar */
+    }
+    /* Style for the first link */
+/* Keyframe animation for zoom effect */
+
+
+/* Apply the animation to all images */
